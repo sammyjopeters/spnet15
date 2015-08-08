@@ -8,6 +8,7 @@ GEM
     commander (4.1.6)
       highline (~> 1.6.11)
     fast-stemmer (1.0.2)
+    ffi (1.9.10)
     ffi (1.9.10-x86-mingw32)
     highline (1.6.21)
     jekyll (1.5.1)
@@ -46,12 +47,17 @@ GEM
     safe_yaml (1.0.4)
     toml (0.1.2)
       parslet (~> 1.5.0)
+    yajl-ruby (1.1.0)
     yajl-ruby (1.1.0-x86-mingw32)
 
 PLATFORMS
+  ruby
   x86-mingw32
 
 DEPENDENCIES
   bundler
   jekyll
   rack-jekyll
+
+BUNDLED WITH
+   1.10.6
